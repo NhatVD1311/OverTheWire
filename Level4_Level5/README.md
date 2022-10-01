@@ -1,5 +1,5 @@
 # Level 4 -> Level 5
-Dùng mật khẩu '2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe' truy cập vào bandit4
+Dùng mật khẩu `2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe` truy cập vào bandit4
 
 Dùng lệnh `ls -la` và thấy có thư mục `inhere`. Vào thư mục `inhere` thì thấy có 10 file 
 
