@@ -1,5 +1,5 @@
 # Level 2 -> Level 3
-Dùng mật khẩu `rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi` truy cập vào bandit2 
+Dùng password `rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi` truy cập vào bandit2 
 
 Dùng lệnh `cat “spaces in this filename”` để lấy password truy cập vào bandit3
 
