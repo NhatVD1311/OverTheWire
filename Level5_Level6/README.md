@@ -5,7 +5,9 @@ Ta thấy có thư mục `inhere`. Truy cập vào thử thì thấy có 20 thư
 
 ![level5_6_1](level5_6_1.png)
 
-Ta cần tìm file theo đúng yêu cầu là `human-readable, 1033 bytes in size, not executable`. Ta dùng lệnh `find . -type f -size 1033c ! -executable` và thấy có file cần tìm. Mở file và ta nhận được password
+Ta cần tìm file theo đúng yêu cầu là `human-readable, 1033 bytes in size, not executable`. Ta dùng lệnh `find . -type f -size 1033c ! -executable` và thấy có file cần tìm. Lưu ý rằng kí hiệu của `byte` là `c`
+
+Mở file và ta nhận được password
 
 ![level5_6_2](level5_6_2.png)
 
