@@ -6,7 +6,7 @@ Xem thử có file hay thư mục nào ở thư mục hiện hành không thì t
 
 ![level6_7_1](level6_7_1.png)
 
-Điều đặt ra ở đây là ta cần tìm `file` ở nơi nào đó có yêu cầu `owned by user bandit7, owned by group bandit6, 33 bytes in size`. Ta dùng lệnh `ind / -type f -user bandit7 -group bandit6 -size 33c`. Sau một lúc tìm kiếm thì ta tìm được đường dẫn `/var/lib/dpkg/info/bandit7.password` không bị `Permission denied`
+Điều đặt ra ở đây là ta cần tìm `file` ở nơi nào đó có yêu cầu `owned by user bandit7, owned by group bandit6, 33 bytes in size`. Ta dùng lệnh `find / -type f -user bandit7 -group bandit6 -size 33c`. Sau một lúc tìm kiếm thì ta tìm được đường dẫn `/var/lib/dpkg/info/bandit7.password` không bị `Permission denied`
 
 ![level6_7_2](level6_7_2.png)
 
