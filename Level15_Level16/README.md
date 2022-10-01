@@ -7,7 +7,7 @@ Dùng password `jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt` để truy cập vào bandit15
 
 ![level15_16_1](level15_16_1.png)
 
-Sau không thử lệnh `nc` không thành công vì không options `ssl`, em thử qua lệnh ncat thì tìm thấy options `ssl` để thực thi
+Sau khi thử lệnh `nc` không thành công vì không options `ssl`, em thử qua lệnh `ncat` thì tìm thấy options `ssl` để thực thi
 
 ![level15_16_3](level15_16_3.png)
 
