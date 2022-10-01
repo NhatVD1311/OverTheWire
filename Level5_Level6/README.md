@@ -9,4 +9,4 @@ Ta cần tìm file theo đúng yêu cầu là `human-readable, 1033 bytes in siz
 
 ![level5_6_2](level5_6_2.png)
 
-Password cần tìm là `P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU`
+Password cần tìm là: `P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU`
