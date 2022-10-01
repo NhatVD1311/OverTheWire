@@ -15,7 +15,7 @@ Thử gửi password với từng port bằng lệnh `ncat` thì chỉ có port 
 
 ![level16_17_3](level16_17_3.png)
 
-`Copy` key rồi `exit` bandit16, sau đó `paste` vào trình soạn thảo vim rồi lưu lại. 
+`Copy` key rồi `exit` bandit16, sau đó `paste` vào trình soạn thảo vim với tên pass rồi lưu lại. 
 
 ![level16_17_4](level16_17_4.png)
 
