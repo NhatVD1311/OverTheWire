@@ -1,4 +1,6 @@
 # Level 3 -> Level 4
+> The password for the next level is stored in a hidden file in the inhere directory.
+
 Dùng password `aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG` truy cập vào bandit3
 
 Dùng lệnh `ls -la` để xem tất cả các file kể cả file ẩn trong thư mục hiện hành
