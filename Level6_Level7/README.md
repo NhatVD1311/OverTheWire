@@ -2,7 +2,7 @@
 
 Dùng password `P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU` truy cập vào bandit6
 
-Xem thử có thư mục nào ở file hiện hành không thì ta nhận ta không thư mục nào.
+Xem thử có file hay thư mục nào ở thư mục hiện hành không thì ta nhận ra không có gì cả
 
 ![level6_7_1](level6_7_1.png)
 
