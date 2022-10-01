@@ -7,7 +7,7 @@ Dùng `ls` ta thấy có 1 file `data.txt`. Dùng `strings data.txt` để xem f
 
 ![level12_13_1](level12_13_1.png)
 
-Để thuận tiện xử lí file ta tạo một thư mục mới `/tmp/nhat` rồi sao chép file 'data.txt' về đó.
+Để thuận tiện xử lí file ta tạo một thư mục mới `/tmp/nhat` rồi sao chép file `data.txt` về đó.
 
 ![level12_13_2](level12_13_2.png)
 
@@ -17,3 +17,22 @@ Vì `data.txt` là 1 file `hexdump`. Ta reverse bằng lệnh `xxd` để chuy�
 
 Vì file `data` có dạng `gzip` nên ta chuyển file `data` thành `data.gzip` và giải nén, ta được file `data` dạng `bzip2`
 
+![level12_13_4](level12_13_4.png)
+
+Tiếp tục `mv` file về dạng `data.bz2` rồi giải nén, ta được file `data` dạng `gzip`
+
+![level12_13_5](level12_13_5.png)
+
+Tiếp tục giải nén như trên ta được file dạng `tar`
+
+![level12_13_6](level12_13_6.png)
+
+`mv` file về dạng `data.tar` rồi giải nén ta được file tiếp tục dạng `tar` 
+
+![level12_13_7](level12_13_7.png)
+
+Ta liên tục lặp lại các bước như trên rồi giải nén, ta cuối cùng cũng tìm được file chứa password 
+
+![level12_13_8](level12_13_8.png)
+
+Password cần tìm là: `wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw`
