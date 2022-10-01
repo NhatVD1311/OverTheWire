@@ -3,7 +3,7 @@
 
 Dùng password `JQttfApK4SeyHwDlI9SXGR50qclOAil1` để truy cập vào bandit16
 
-Đầu tiên ta dùng lệnh `cat /etc/bandit_pass/bandit16` để lấy password cần gởi. 
+Đầu tiên ta dùng lệnh `cat /etc/bandit_pass/bandit16` để lấy password cần gửi. 
 
 ![level16_17_1](level16_17_1.png)
 
@@ -11,7 +11,7 @@ Ta dùng lệnh `nmap localhost -p 31000-32000` để xem các port trong khoả
 
 ![level16_17_2](level16_17_2.png)
 
-Thử gởi password với từng port bằng lệnh `ncat` thì chỉ có port 31790 trả về correct 1 key rsa còn tất cả port khác chỉ gởi pass lại password mà mình đã gởi
+Thử gửi password với từng port bằng lệnh `ncat` thì chỉ có port 31790 trả về correct 1 key rsa còn tất cả port khác chỉ gởi pass lại password mà mình đã gửi
 
 ![level16_17_3](level16_17_3.png)
 
