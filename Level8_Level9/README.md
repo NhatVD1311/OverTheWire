@@ -5,7 +5,7 @@ Dùng `ls` ta thấy có 1 file `data.txt`. Mở file để xem thử thì thấ
 
 ![level8_9_1](level8_9_1.png)
 
-Ta cần tìm chuỗi chỉ xảy ra 1 lần. Ta dùng lệnh `sort data.txt|uniq -c|grep "1 "` với `sort` sẽ sắp xếp file, 'uniq -c' sẽ đếm số lượng file lặp và `grep "1 "` sẽ kiếm chuỗi có lần lặp là 1 
+Ta cần tìm chuỗi chỉ xảy ra 1 lần. Ta dùng lệnh `sort data.txt|uniq -c|grep "1 "` với `sort` sẽ sắp xếp file, `uniq -c` sẽ đếm số lượng file lặp và `grep "1 "` sẽ kiếm chuỗi có lần lặp là 1 
 
 ![level8_9_2](level8_9_2.png)
 
