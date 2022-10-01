@@ -1,8 +1,8 @@
 # Level 5 -> Level 6
-> The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:
-> human-readable
-> 1033 bytes in size
-> not executable
+>The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:
+>- human-readable
+>- 1033 bytes in size
+>- not executable
 
 Dùng password `lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR` truy cập vào bandit5
 
