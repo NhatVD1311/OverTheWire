@@ -5,7 +5,7 @@ Dùng `ls` thì ta thấy được 1 file `data.txt`. Mở file thì ta nhận �
 
 ![level7_8_1](level7_8_1.png)
 
-Ta dùng lệnh `cat data.txt|grep millionth` để tìm kiếm từ khóa `millionth` trong file không thì ta tìm thấy kèm với password
+Ta dùng lệnh `cat data.txt|grep millionth` để tìm kiếm từ khóa `millionth` trong file thì ta tìm thấy kèm với password
 
 ![level7_8_2](level7_8_2.png)
 
