@@ -1,5 +1,5 @@
 # Level 3 -> Level 4
-Dùng mật khẩu `aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG` truy cập vào bandit3
+Dùng password `aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG` truy cập vào bandit3
 
 Dùng lệnh `ls -la` để xem tất cả các file kể cả file ẩn trong thư mục hiện hành
 
