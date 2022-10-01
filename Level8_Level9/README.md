@@ -1,4 +1,6 @@
 # Level 8 -> Level 9
+>The password for the next level is stored in the file data.txt and is the only line of text that occurs only once
+
 Dùng password `TESKZC0XvTetK0S9xNwm25STk5iWrBvP` để truy cập vào bandit8
 
 Dùng `ls` ta thấy có 1 file `data.txt`. Mở file để xem thử thì thấy có rất nhiều chuỗi
