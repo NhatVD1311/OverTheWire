@@ -1,7 +1,7 @@
 # Level 10 -> Level 11
 Dùng password `G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s` để truy cập vào bandit11
 
-Dùng `ls` ta thấy có 1 file `data.txt`. Dùng strings data.txt để xem chuỗi bên trong file
+Dùng `ls` ta thấy có 1 file `data.txt`. Dùng `strings data.txt` để xem chuỗi bên trong file
 
 ![level10_11_1](level10_11_1.png)
 
