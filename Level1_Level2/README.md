@@ -1,4 +1,6 @@
 # Level 1 -> Level 2
+> The password for the next level is stored in a file called - located in the home directory
+
 Dùng password `NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL` truy cập vào bandit1 (Tương tự như cách tuy cập vào bandit0)
 
 Dùng lệnh `cat ./-` để lấy password truy cập vào bandit2
