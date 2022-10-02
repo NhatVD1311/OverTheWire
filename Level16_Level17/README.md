@@ -11,7 +11,7 @@ Ta dùng lệnh `nmap localhost -p 31000-32000` để xem các port trong khoả
 
 ![level16_17_2](level16_17_2.png)
 
-Thử gửi password với từng port bằng lệnh `ncat` thì chỉ có port 31790 trả về correct 1 key rsa còn tất cả port khác chỉ gởi pass lại password mà mình đã gửi
+Thử gửi password với từng port bằng lệnh `ncat` thì chỉ có port 31790 trả về correct 1 key rsa còn tất cả port khác chỉ gửi lại password mà mình đã gửi
 
 ![level16_17_3](level16_17_3.png)
 
