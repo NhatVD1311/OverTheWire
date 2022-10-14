@@ -11,7 +11,7 @@ Sử dụng ssh truy cập vào `bandit.labs.overthewire.org` với username `ba
 
 ![level0](image/level0.png)
 
-## Level 1 -> Level 2
+## Level 0 -> Level 1
 > The password for the next level is stored in a file called readme located in the home directory. Use this password to log into bandit1 using SSH. Whenever you find a password for a level, use SSH (on port 2220) to log into that level and continue the game.
 
 Dùng lệnh `cat readme` để lấy password truy cập vào bandit1
