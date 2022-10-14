@@ -14,6 +14,8 @@ Sử dụng ssh truy cập vào `bandit.labs.overthewire.org` với username `ba
 ## Level 0 -> Level 1
 > The password for the next level is stored in a file called readme located in the home directory. Use this password to log into bandit1 using SSH. Whenever you find a password for a level, use SSH (on port 2220) to log into that level and continue the game.
 
+Đầu tiên, ta dùng lệnh `ls` để liệt kê danh sách các file và thư mục tại thư mục hiện hành thì ta thấy có file `readme`
+
 Dùng lệnh `cat readme` để lấy password truy cập vào bandit1
 
 ![level0_1](image/level0_1.png)
@@ -24,6 +26,8 @@ Password cần tìm là: `NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL`
 > The password for the next level is stored in a file called - located in the home directory
 
 Dùng password `NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL` truy cập vào bandit1 (Tương tự như cách tuy cập vào bandit0)
+
+Đầu tiên, ta dùng lệnh `ls` thì thấy có file tên là `-`
 
 Dùng lệnh `cat ./-` để lấy password truy cập vào bandit2
 
@@ -36,6 +40,8 @@ Password cần tìm là: `rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi`
 
 Dùng password `rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi` truy cập vào bandit2 
 
+Dùng lệnh `ls` thì thấy có file tên là `spaces in this filename`
+
 Dùng lệnh `cat “spaces in this filename”` để lấy password truy cập vào bandit3
 
 ![level2_3](image/level2_3.png)
@@ -47,7 +53,7 @@ Password cần tìm là: `aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG`
 
 Dùng password `aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG` truy cập vào bandit3
 
-Dùng lệnh `ls -la` để xem tất cả các file kể cả file ẩn trong thư mục hiện hành
+Dùng lệnh `ls -la` để xem toàn bộ thông tin của file và những file ẩn trong thư mục hiện hành
 
 Vào thư mục `inhere` và sử dụng `ls -la` lần nữa ta thấy có 1 file ẩn là `.hidden`
 
