@@ -27,7 +27,7 @@ Password cần tìm là: `NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL`
 
 Dùng password `NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL` truy cập vào bandit1 (Tương tự như cách tuy cập vào bandit0)
 
-Đầu tiên, ta dùng lệnh `ls` thì thấy có file tên là `-`
+Tiếp theo, ta dùng lệnh `ls` thì thấy có file tên là `-`
 
 Dùng lệnh `cat ./-` để lấy password truy cập vào bandit2
 
