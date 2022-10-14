@@ -4,14 +4,14 @@
 > 
 > **SVTH: Lê Thành Đạt - MSSV: 20521168**
 
-# Level 0
+## Level 0
 >The goal of this level is for you to log into the game using SSH. The host to which you need to connect is bandit.labs.overthewire.org, on port 2220. The username is bandit0 and the password is bandit0. Once logged in, go to the Level 1 page to find out how to beat Level 1.
 
 Sử dụng ssh truy cập vào `bandit.labs.overthewire.org` với username `bandit0`, password `bandit0` với port 2220
 
 ![level0](image/level0.png)
 
-# Level 1 -> Level 2
+## Level 1 -> Level 2
 > The password for the next level is stored in a file called readme located in the home directory. Use this password to log into bandit1 using SSH. Whenever you find a password for a level, use SSH (on port 2220) to log into that level and continue the game.
 
 Dùng lệnh `cat readme` để lấy password truy cập vào bandit1
@@ -20,7 +20,7 @@ Dùng lệnh `cat readme` để lấy password truy cập vào bandit1
 
 Password cần tìm là: `NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL`
 
-# Level 1 -> Level 2
+## Level 1 -> Level 2
 > The password for the next level is stored in a file called - located in the home directory
 
 Dùng password `NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL` truy cập vào bandit1 (Tương tự như cách tuy cập vào bandit0)
@@ -31,7 +31,7 @@ Dùng lệnh `cat ./-` để lấy password truy cập vào bandit2
 
 Password cần tìm là: `rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi`
 
-# Level 2 -> Level 3
+## Level 2 -> Level 3
 > The password for the next level is stored in a file called spaces in this filename located in the home directory
 
 Dùng password `rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi` truy cập vào bandit2 
@@ -42,7 +42,7 @@ Dùng lệnh `cat “spaces in this filename”` để lấy password truy cập
 
 Password cần tìm là: `aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG`
 
-# Level 3 -> Level 4
+## Level 3 -> Level 4
 > The password for the next level is stored in a hidden file in the inhere directory.
 
 Dùng password `aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG` truy cập vào bandit3
@@ -57,7 +57,7 @@ Dùng lệnh `cat .hidden` để xem file ẩn
 
 Password cần tìm là: `2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe`
 
-# Level 4 -> Level 5
+## Level 4 -> Level 5
 > The password for the next level is stored in the only human-readable file in the inhere directory. Tip: if your terminal is messed up, try the “reset” command.
 
 Dùng password `2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe` truy cập vào bandit4
@@ -74,7 +74,7 @@ Ta thấy `-file07` có dạng ASCII text, ta mở ra xem thử thì thấy pass
 
 ![level4_5_3](image/level4_5_3.png)
 
-# Level 5 -> Level 6
+## Level 5 -> Level 6
 >The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:
 >- human-readable
 >- 1033 bytes in size
@@ -94,7 +94,7 @@ Mở file và ta nhận được password
 
 Password cần tìm là: `P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU`
 
-# Level 6 -> Level 7
+## Level 6 -> Level 7
 >The password for the next level is stored somewhere on the server and has all of the following properties:
 >- owned by user bandit7
 >- owned by group bandit6
@@ -120,7 +120,7 @@ Mở file và ta được password cần tìm
 
 Password cần tìm là: `z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S`
 
-# Level 7 -> Level 8
+## Level 7 -> Level 8
 >The password for the next level is stored in the file data.txt next to the word millionth
 
 Dùng password `z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S` để truy cập vào bandit7
@@ -135,7 +135,7 @@ Ta dùng lệnh `cat data.txt|grep millionth` để tìm kiếm từ khóa `mill
 
 Password cần tìm là: `TESKZC0XvTetK0S9xNwm25STk5iWrBvP`
 
-# Level 8 -> Level 9
+## Level 8 -> Level 9
 >The password for the next level is stored in the file data.txt and is the only line of text that occurs only once
 
 Dùng password `TESKZC0XvTetK0S9xNwm25STk5iWrBvP` để truy cập vào bandit8
@@ -150,7 +150,7 @@ Ta cần tìm chuỗi chỉ xảy ra 1 lần. Ta dùng lệnh `sort data.txt|uni
 
 Password cần tìm là: `EN632PlfYiZbn3PhVK3XOGSlNInNE00t`
 
-# Level 9 -> Level 10
+## Level 9 -> Level 10
 > The password for the next level is stored in the file data.txt in one of the few human-readable strings, preceded by several ‘=’ characters.
 
 Dùng password `EN632PlfYiZbn3PhVK3XOGSlNInNE00t` để truy cập vào bandit9
@@ -165,7 +165,7 @@ Dùng `ls` ta thấy có 1 file `data.txt`. Dùng `strings data.txt` để xem c
 
 Password cần tìm là: `G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s`
 
-# Level 10 -> Level 11
+## Level 10 -> Level 11
 > The password for the next level is stored in the file data.txt, which contains base64 encoded data
 
 Dùng password `G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s` để truy cập vào bandit11
@@ -180,7 +180,7 @@ Ta cần decode base64 đoạn mã này. Ta dùng lệnh `base64 -d` và tìm đ
 
 Password cần tìm là: `6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM`
 
-# Level 11 -> Level 12
+## Level 11 -> Level 12
 > The password for the next level is stored in the file data.txt, where all lowercase (a-z) and uppercase (A-Z) letters have been rotated by 13 positions
 
 Dùng password `6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM` để truy cập vào bandit11
@@ -195,7 +195,7 @@ Ta cần luân chuyển những chuỗi trên 13 kí tự. Ta dùng lệnh `tr '
 
 Password cần tìm là: `JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv`
 
-# Level 12 -> Level 13
+## Level 12 -> Level 13
 >The password for the next level is stored in the file data.txt, which is a hexdump of a file that has been repeatedly compressed. For this level it may be useful to create a directory under /tmp in which you can work using mkdir. For example: mkdir /tmp/myname123. Then copy the datafile using cp, and rename it using mv (read the manpages!)
 
 Dùng password `JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv` để truy cập vào bandit12
@@ -234,7 +234,7 @@ Ta liên tục lặp lại các bước như trên rồi giải nén, ta cuối 
 
 Password cần tìm là: `wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw`
 
-# Level 13 -> Level 14
+## Level 13 -> Level 14
 > The password for the next level is stored in /etc/bandit_pass/bandit14 and can only be read by user bandit14. For this level, you don’t get the next password, but you get a private SSH key that can be used to log into the next level. Note: localhost is a hostname that refers to the machine you are working on
 
 Dùng password `wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw` để truy cập vào bandit13
@@ -255,7 +255,7 @@ Dùng `ssh` truy cập ở local,  sau đó `cat /etc/bandit_pass/bandit14` ta �
 
 Password cần tìm là: `fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq`
 
-# Level 14 -> Level 15
+## Level 14 -> Level 15
 > The password for the next level can be retrieved by submitting the password of the current level to port 30000 on localhost.
 
 Ở challenge trước ta tìm được password là `fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq`. Dùng `nc`, gửi password này đến port 30000 ta được password
@@ -264,7 +264,7 @@ Password cần tìm là: `fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq`
 
 Password cần tìm là: `jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt`
 
-# Level 15 -> Level 16
+## Level 15 -> Level 16
 >The password for the next level can be retrieved by submitting the password of the current level to port 30001 on localhost using SSL encryption.
 
 Dùng password `jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt` để truy cập vào bandit15
@@ -283,7 +283,7 @@ Thưc thi lệnh `ncat --ssl localhost 30001` rồi gửi password đã kiếm �
 
 Passwword cần tìm là: `JQttfApK4SeyHwDlI9SXGR50qclOAil1`
 
-# Level 16 -> Level 17
+## Level 16 -> Level 17
 >The credentials for the next level can be retrieved by submitting the password of the current level to a port on localhost in the range 31000 to 32000. First find out which of these ports have a server listening on them. Then find out which of those speak SSL and which don’t. There is only 1 server that will give the next credentials, the others will simply send back to you whatever you send to it.
 
 Dùng password `JQttfApK4SeyHwDlI9SXGR50qclOAil1` để truy cập vào bandit16
