@@ -683,7 +683,7 @@ Các bước thực hiện như sau:
 
 Password: `rmCBvG56y58BXzv98yZGdO7ATVL5dW8y`
 
-## Level 31 -> Level 32
+## Level 32 -> Level 33
 >After all this `git` stuff its time for another escape. Good luck!
 
 Khi log in vào, ta nhận được một "custom shell". Mọi kí tự đều sẽ được in hoa trước khi thực thi lệnh, do đó ta không thể thực thi lệnh có kí tự thường trong shell này.
